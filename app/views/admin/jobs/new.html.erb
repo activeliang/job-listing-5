@@ -1,0 +1,7 @@
+<h2>Add a job</h2>
+
+<%= simple_form_for @job do |f| %>
+<%= f.input :title%>
+<%= f.input :description%>
+<%= f.submit "Submit", disable_with: "Submiting..."%>
+<% end %>
